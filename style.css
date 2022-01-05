@@ -42,4 +42,49 @@ h1{
     background-position:  right ;
     margin-bottom: 100px;
 }
+#stact-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange , cyan);
+    border-image-slice: 1;
+    
+}
+#babe-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+
+#experiance-section .experiance{
+   font-size: 35px;
+}
+#experiance-section .developer{
+    display: flex;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+#experiance-section .developer .full-stact{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 30px gray;
+    padding: 50px;
+    
+}
+#experiance-section .developer .full-stact h2{
+   font-size: 40px;
+}
+
+#experiance-section .developer .baby-stact{
+    width: 40%;
+    margin-left: 5%;
+ margin-right: 5%;
+    box-shadow: 5px 5px 30px gray;
+    padding: 50px;
+}
+
+#experiance-section .developer .baby-stact h2{
+    font-size: 40px;
+ }
 
