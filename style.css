@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 h1{
    
@@ -8,3 +10,36 @@ h1{
 .orange-color{
     color: orange;
 }
+
+#heider-section{
+    display: flex;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+ 
+}
+.helf-widht{
+    width: 40%;
+    margin-left: 5%;
+}
+.helf-widht img{ 
+    width: 600px;
+}
+.helf-widht a{ 
+   text-decoration: none;
+   background-color: red;
+   padding: 10px 20px ;
+   border-radius: 5px;
+   color: white;
+   background-image: linear-gradient(orange, tomato);
+}
+
+
+#middle-section{
+    display: flex;
+    margin-top: 100px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:  right ;
+    margin-bottom: 100px;
+}
+
